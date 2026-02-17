@@ -3,46 +3,46 @@ import Image from "next/image";
 function Home() {
   return (
     <main style={styles.page}>
-        <h1 style={styles.title}>Muito obrigado bb, te amo</h1>
+      <h1 style={styles.title}>Muito obrigado bb, te amo</h1>
 
-        <figure style={styles.figure}>
-            <Image
-            src="/paca.jpg"
-            alt="Pacas"
-            width={400}
-            height={400}
-            title="Pacas"
-            style={styles.image}
-            priority
-            />
-            <figcaption style={styles.caption}>
-            <b>Pacas</b>
-            </figcaption>
-        </figure>
-      
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-            
-        <h1 style={styles.subtitle}>PS: tava muito gostoso (que nem vc :3)</h1>
+      <figure style={styles.figure}>
+        <Image
+          src="/paca.jpg"
+          alt="Pacas"
+          width={400}
+          height={400}
+          title="Pacas"
+          style={styles.image}
+          priority
+        />
+        <figcaption style={styles.caption}>
+          <b>Pacas</b>
+        </figcaption>
+      </figure>
 
-        <figure style={styles.figure}>
-            <Image
-            src="/eu.jpg"
-            alt="Eu"
-            width={300}
-            height={400}
-            title="Eu"
-            style={styles.image}
-            />
-        </figure>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+      <h1>.</h1>
+
+      <h1 style={styles.subtitle}>PS: tava muito gostoso (que nem vc :3)</h1>
+
+      <figure style={styles.figure}>
+        <Image
+          src="/eu.jpg"
+          alt="Eu"
+          width={300}
+          height={400}
+          title="Eu"
+          style={styles.image}
+        />
+      </figure>
     </main>
   );
 }
